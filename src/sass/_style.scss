@@ -1,0 +1,81 @@
+body {
+  font-size: 20px;
+  background-color: darkgray;
+}
+.input {
+  width: 100%;
+  height: 50px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: transparent;
+  border-radius: 5px;
+  outline: none;
+  &::placeholder {
+    color: rgba(121, 122, 120, 0.5);
+  }
+  &:hover,
+  &:focus {
+    border-color: rgb(170, 162, 162);
+  }
+}
+.counrtries-form-wrap {
+  width: 50%;
+  min-width: 310px;
+  margin-right: auto;
+  margin-left: auto;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+.card-img-top {
+  width: 350px;
+}
+.card {
+  position: relative;
+}
+.card-img-top {
+  position: absolute;
+  top: 80px;
+  right: 350px;
+  border: 1px solid black;
+}
+.card-title {
+  text-align: center;
+  font-size: 50px;
+}
+.main-card-text {
+  font-weight: 700;
+  font-size: 25px;
+}
+.card-body {
+  margin-left: 350px;
+}
+.js-country-item {
+  cursor: pointer;
+}
+.js-country-item:hover {
+  color: aqua;
+}
+.js-countries-list {
+  width: 250px;
+}
+.countries-title {
+  font-size: 30px;
+  text-align: center;
+  color: #4d534c;
+}
+
+.form {
+  padding-top: 10px;
+}
+.js-countries-list {
+  margin-right: auto;
+  margin-left: auto;
+}
