@@ -1,9 +1,9 @@
 import API from './fetchCountries.js';
 import countryCard from '../templates/countryCard.hbs';
 import countriesList from '../templates/countriesList.hbs';
-import '@pnotify/core/dist/Pnotify.css';
-import '@pnotify/core/dist/BrightTheme.css';
-const { error } = require('@pnotify/core');
+// import '@pnotify/core/dist/Pnotify.css';
+ import '@pnotify/core/dist/BrightTheme.css';
+ const { error } = require('@pnotify/core');
 
 var debounce = require('lodash.debounce');
 
